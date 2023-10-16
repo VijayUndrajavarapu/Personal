@@ -1,0 +1,19 @@
+package craze;
+
+ class superjey2 {
+	 public void methodm1() {
+		 System.out.println("parent class");
+	 }
+}
+ class superjey3 extends superjey2{
+	public void methodm2() {
+		System.out.println("child class");
+		super.methodm1();
+	}
+}
+  class mainmethod{
+	 public mainmethod() {
+		// TODO Auto-generated constructor stub
+		 new superjey3().methodm2();
+	}
+ }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="SepsPracy.constr.Abrev"/>
+    <fullyQualifiedTypeName name="SepsPracy.constr"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+</qualifiedTypeNameHistroy>

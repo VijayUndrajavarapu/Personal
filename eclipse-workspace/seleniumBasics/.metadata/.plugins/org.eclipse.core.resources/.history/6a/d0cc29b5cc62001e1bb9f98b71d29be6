@@ -1,0 +1,10 @@
+package aGAINPack;
+
+public class TC_001 extends BaseTest{
+		public static void main(String[] args) throws Exception {
+			init();
+			//launchBrowser1("https://google.com");
+			launchMainBrowser("chrome");
+			NavigateURL_p();
+		}
+}

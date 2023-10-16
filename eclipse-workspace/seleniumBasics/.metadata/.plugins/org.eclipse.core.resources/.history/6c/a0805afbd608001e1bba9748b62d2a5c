@@ -1,0 +1,23 @@
+package craze;
+
+public class superClas {
+
+	public void adreas() {
+		System.out.println("Parent class adreas method");
+	}
+	
+	public class SuperSubClas extends superClas{
+		public void adreas() {
+			super.adreas();
+			System.out.println("Child Class adreas method");
+		}
+	}
+	
+	public class mainSuper{
+	public static void main(String[] args) {
+		SuperSubClas sc = new SuperSubClas();
+		sc.adreas();
+	}
+	}
+}
+	

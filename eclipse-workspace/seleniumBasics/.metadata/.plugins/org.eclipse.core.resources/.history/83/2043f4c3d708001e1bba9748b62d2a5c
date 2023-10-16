@@ -1,0 +1,17 @@
+package craze;
+
+public class superjey extends Parent{
+
+	public void m1() {
+		System.out.println("child1 method");
+		super.parentUse();
+	}
+	
+	public static void main(String[] args) {
+		
+		superjey sj = new superjey();
+		sj.m1();
+
+	}
+
+}

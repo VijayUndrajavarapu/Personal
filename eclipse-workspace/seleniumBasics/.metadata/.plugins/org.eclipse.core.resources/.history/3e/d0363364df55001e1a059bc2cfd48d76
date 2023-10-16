@@ -1,0 +1,11 @@
+package com.java.conceps;
+
+public class stringsso {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 =  "vijay";
+		System.out.println(s1);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.java.conceps;
+
+import java.util.Scanner;
+
+public class stringsso {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 =  "vijay";	//String pool
+//		System.out.println(s1);
+//		String s2 = new String("he;;");	//heap memory
+//		System.out.println(s2);
+//		String s3 = "Vijay";
+//		String s4 = "VIJAY";
+//		//System.out.println(s1.equals(s2));
+//		System.out.println(s3.contains("a"));
+		Scanner sc = new Scanner(System.in);
+		String Name = sc.next();
+		System.out.println(Name);
+		
+	}
+
+}

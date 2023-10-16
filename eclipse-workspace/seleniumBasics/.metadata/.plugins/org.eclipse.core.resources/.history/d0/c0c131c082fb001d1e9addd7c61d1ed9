@@ -1,0 +1,24 @@
+package craze;
+
+import java.util.Scanner;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class URLnoOfTimes {
+
+	public static void main(String[] args) {
+		WebDriver driver;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter URL:");
+		String url = sc.nextLine();
+		int count = 5;
+		for(int i=1; i<count; i++) {
+			System.setProperty("webdriver.driver.chrome", "\"C:\\Users\\lenovo\\OneDrive\\Desktop\\2.0\\chromedriver_win32\\chromedriver.exe\"");
+			driver = new ChromeDriver();
+			driver.get(url);
+			
+		}
+	}
+
+}

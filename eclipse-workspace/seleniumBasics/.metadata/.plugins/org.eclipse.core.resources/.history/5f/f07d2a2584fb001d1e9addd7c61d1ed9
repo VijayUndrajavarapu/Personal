@@ -1,0 +1,23 @@
+package craze;
+
+import java.util.Scanner;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NoOfURLs {
+
+	public static void main(String[] args) throws InterruptedException {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the URL: ");
+		String URL_Console = sc.nextLine();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\lenovo\\OneDrive\\Desktop\\2.0\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(URL_Console);
+		
+		Thread.sleep(2000);
+		String title = driver.getTitle();
+		System.out.println(title);
+	}
+
+}

@@ -1,0 +1,7 @@
+package craze;
+
+public class Parent {
+	public void parentUse() {
+		System.out.println("this method is from parent class");
+	}
+}
